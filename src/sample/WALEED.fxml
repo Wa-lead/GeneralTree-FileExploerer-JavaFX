@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="mainPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WALEED">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0">
+         <image>
+            <Image url="@../Smooth%20background%20blur.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="566.0" fitWidth="771.0" layoutX="13.0" layoutY="17.0">
+         <image>
+            <Image url="@../Rectangle%20162.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="223.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Waleed's File Explorer" wrappingWidth="332.0">
+         <font>
+            <Font name="Courier New" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="261.0" fitWidth="364.0" layoutX="207.0" layoutY="82.0">
+         <image>
+            <Image url="@../Transparent.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="223.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ICS202 Project - General Tree" wrappingWidth="332.0">
+         <font>
+            <Font name="Courier New" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="276.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For Dr. Faisal Alvi" wrappingWidth="332.0">
+         <font>
+            <Font name="Courier New" size="19.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="Search" fitHeight="43.0" fitWidth="332.0" layoutX="221.0" layoutY="430.0" onMouseClicked="#browseFiles">
+         <image>
+            <Image url="@../Input.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
